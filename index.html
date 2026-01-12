@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAL Data Consulting | Data Strategy & Analytics</title>
+    <meta name="description" content="Expert data consulting services including data engineering, analytics, business intelligence, and machine learning solutions.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JAL<span>Data</span></a>
+            <ul class="nav-links">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#expertise">Expertise</a></li>
+                <li><a href="#approach">Approach</a></li>
+                <li><a href="#contact" class="btn-nav">Get in Touch</a></li>
+            </ul>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transform Your Data Into <span class="highlight">Strategic Advantage</span></h1>
+                <p class="hero-subtitle">Senior data leadership expertise for organizations ready to unlock the full potential of their data assets. From strategy to execution.</p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Start a Conversation</a>
+                    <a href="#services" class="btn btn-secondary">Explore Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="data-viz">
+                    <div class="viz-bar" style="--height: 60%"></div>
+                    <div class="viz-bar" style="--height: 80%"></div>
+                    <div class="viz-bar" style="--height: 45%"></div>
+                    <div class="viz-bar" style="--height: 90%"></div>
+                    <div class="viz-bar" style="--height: 70%"></div>
+                    <div class="viz-bar" style="--height: 85%"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="credentials">
+        <div class="container">
+            <div class="credentials-grid">
+                <div class="credential-item">
+                    <span class="credential-number">15+</span>
+                    <span class="credential-label">Years Experience</span>
+                </div>
+                <div class="credential-item">
+                    <span class="credential-number">100M+</span>
+                    <span class="credential-label">Users Served</span>
+                </div>
+                <div class="credential-item">
+                    <span class="credential-number">Fortune 500</span>
+                    <span class="credential-label">Enterprise Experience</span>
+                </div>
+                <div class="credential-item">
+                    <span class="credential-number">C-Suite</span>
+                    <span class="credential-label">Leadership Level</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>End-to-end data solutions tailored to your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                            <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                        </svg>
+                    </div>
+                    <h3>Data Engineering</h3>
+                    <p>Build scalable, reliable data pipelines and infrastructure. ETL/ELT development, medallion architectures, and cloud-native solutions using modern tools like Airflow, Databricks, and Snowflake.</p>
+                    <ul class="service-features">
+                        <li>Pipeline Development & Migration</li>
+                        <li>Data Warehouse Architecture</li>
+                        <li>Real-time Streaming Solutions</li>
+                        <li>Cloud Platform Optimization</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="18" y1="20" x2="18" y2="10"></line>
+                            <line x1="12" y1="20" x2="12" y2="4"></line>
+                            <line x1="6" y1="20" x2="6" y2="14"></line>
+                        </svg>
+                    </div>
+                    <h3>Business Intelligence</h3>
+                    <p>Transform raw data into actionable insights. Executive dashboards, automated reporting systems, and self-service analytics that drive informed decision-making across your organization.</p>
+                    <ul class="service-features">
+                        <li>Dashboard Strategy & Development</li>
+                        <li>Looker & Tableau Implementation</li>
+                        <li>Automated Reporting Systems</li>
+                        <li>KPI Framework Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <path d="M12 6v6l4 2"></path>
+                        </svg>
+                    </div>
+                    <h3>Analytics Engineering</h3>
+                    <p>Bridge the gap between data engineering and analytics. Implement data modeling best practices, establish data quality frameworks, and create trustworthy, well-documented data assets.</p>
+                    <ul class="service-features">
+                        <li>Data Modeling & Transformation</li>
+                        <li>dbt Implementation</li>
+                        <li>Data Quality & Governance</li>
+                        <li>Metrics Layer Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                            <path d="M2 17l10 5 10-5"></path>
+                            <path d="M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <h3>Data Science & ML</h3>
+                    <p>Leverage machine learning to solve complex business problems. Predictive modeling, anomaly detection, A/B testing frameworks, and production ML systems that deliver measurable ROI.</p>
+                    <ul class="service-features">
+                        <li>Predictive Modeling</li>
+                        <li>A/B Testing Frameworks</li>
+                        <li>Anomaly Detection Systems</li>
+                        <li>ML Pipeline Development</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a2 2 0 0 1 0 4h-1v1a3 3 0 0 1-3 3H6a3 3 0 0 1-3-3v-1H2a2 2 0 0 1 0-4h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"></path>
+                            <circle cx="8" cy="14" r="1"></circle>
+                            <circle cx="16" cy="14" r="1"></circle>
+                            <path d="M9 18h6"></path>
+                        </svg>
+                    </div>
+                    <h3>AI & LLM Development</h3>
+                    <p>Harness the power of artificial intelligence and large language models for your business. From proof-of-concept to production deployment, build AI solutions that create real value.</p>
+                    <ul class="service-features">
+                        <li>LLM Application Development</li>
+                        <li>RAG & Vector Search Systems</li>
+                        <li>AI Strategy & Use Case Discovery</li>
+                        <li>Prompt Engineering & Fine-tuning</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <h3>Data Strategy & Leadership</h3>
+                    <p>Develop comprehensive data strategies and build high-performing teams. From organizational design and hiring to OKR development and technology selection, establish data-driven cultures that deliver results.</p>
+                    <ul class="service-features">
+                        <li>Data Maturity Assessment</li>
+                        <li>Team Structure & Hiring</li>
+                        <li>OKR & KPI Development</li>
+                        <li>Technical Mentorship</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="expertise" class="expertise">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Expertise</h2>
+                <p>Deep experience across the modern data stack</p>
+            </div>
+            <div class="expertise-grid">
+                <div class="expertise-category">
+                    <h3>Languages & Processing</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">SQL</span>
+                        <span class="tech-tag">PySpark</span>
+                        <span class="tech-tag">R</span>
+                    </div>
+                </div>
+                <div class="expertise-category">
+                    <h3>Data Platforms</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Databricks</span>
+                        <span class="tech-tag">Snowflake</span>
+                        <span class="tech-tag">BigQuery</span>
+                        <span class="tech-tag">Redshift</span>
+                    </div>
+                </div>
+                <div class="expertise-category">
+                    <h3>Orchestration</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Airflow</span>
+                        <span class="tech-tag">dbt</span>
+                    </div>
+                </div>
+                <div class="expertise-category">
+                    <h3>Visualization</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Looker</span>
+                        <span class="tech-tag">Tableau</span>
+                        <span class="tech-tag">Power BI</span>
+                        <span class="tech-tag">Sigma</span>
+                        <span class="tech-tag">Hex</span>
+                    </div>
+                </div>
+                <div class="expertise-category">
+                    <h3>Cloud Platforms</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">AWS</span>
+                        <span class="tech-tag">GCP</span>
+                        <span class="tech-tag">Azure</span>
+                    </div>
+                </div>
+                <div class="expertise-category">
+                    <h3>DevOps & Tools</h3>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Git</span>
+                        <span class="tech-tag">Docker</span>
+                        <span class="tech-tag">Linux</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="industries">
+        <div class="container">
+            <div class="section-header">
+                <h2>Industry Experience</h2>
+                <p>Proven track record across diverse sectors</p>
+            </div>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <h3>Media & Entertainment</h3>
+                    <p>Large-scale content analytics, audience measurement, and engagement optimization for digital platforms serving 100M+ users.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Sports & Gaming</h3>
+                    <p>Fantasy sports analytics, real-time data delivery, and fan engagement metrics for major sports properties.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Digital Marketing</h3>
+                    <p>Email optimization, conversion modeling, and multi-channel attribution driving significant revenue growth.</p>
+                </div>
+                <div class="industry-card">
+                    <h3>Financial Services</h3>
+                    <p>Risk analytics, market data processing, and regulatory reporting for financial news and information platforms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="approach" class="approach">
+        <div class="container">
+            <div class="section-header">
+                <h2>The Approach</h2>
+                <p>A proven methodology for delivering data solutions that stick</p>
+            </div>
+            <div class="approach-steps">
+                <div class="approach-step">
+                    <div class="step-number">01</div>
+                    <h3>Discover</h3>
+                    <p>Deep dive into your current data landscape, business objectives, and pain points. Understand what success looks like for your organization.</p>
+                </div>
+                <div class="approach-step">
+                    <div class="step-number">02</div>
+                    <h3>Design</h3>
+                    <p>Architect solutions that balance immediate needs with long-term scalability. Select the right tools and patterns for your specific context.</p>
+                </div>
+                <div class="approach-step">
+                    <div class="step-number">03</div>
+                    <h3>Deliver</h3>
+                    <p>Execute with precision, implementing solutions iteratively with continuous feedback. Focus on quick wins while building toward larger goals.</p>
+                </div>
+                <div class="approach-step">
+                    <div class="step-number">04</div>
+                    <h3>Develop</h3>
+                    <p>Transfer knowledge and build internal capabilities. Ensure your team can maintain and extend solutions independently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="results">
+        <div class="container">
+            <div class="section-header">
+                <h2>Proven Results</h2>
+                <p>Measurable impact across organizations</p>
+            </div>
+            <div class="results-grid">
+                <div class="result-card">
+                    <span class="result-metric">75%</span>
+                    <span class="result-description">Reduction in data pipeline latency through architecture modernization</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-metric">55%</span>
+                    <span class="result-description">Decrease in cloud compute costs through platform optimization</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-metric">35%</span>
+                    <span class="result-description">Revenue increase through ML-driven marketing optimization</span>
+                </div>
+                <div class="result-card">
+                    <span class="result-metric">40%</span>
+                    <span class="result-description">Reduction in data warehouse costs via strategic migrations</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content-centered">
+                <h2>Let's Build Something Great</h2>
+                <p>Whether you're looking to modernize your data infrastructure, build a BI practice from scratch, or need strategic guidance on your data journey, I'd love to hear about your challenges.</p>
+                <a href="mailto:consulting@jaldata.com" class="btn btn-primary btn-large">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="width: 20px; height: 20px; margin-right: 10px;">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    consulting@jaldata.com
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#" class="logo">JAL<span>Data</span></a>
+                <p>&copy; 2025 JAL Data Consulting. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const navLinks = document.querySelector('.nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            mobileMenuBtn.classList.toggle('active');
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                    // Close mobile menu if open
+                    navLinks.classList.remove('active');
+                    mobileMenuBtn.classList.remove('active');
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        const navbar = document.querySelector('.navbar');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Animate elements on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.service-card, .expertise-category, .industry-card, .approach-step, .result-card').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
